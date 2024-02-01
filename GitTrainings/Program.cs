@@ -8,5 +8,10 @@ namespace GitTrainings
         {
             Console.WriteLine("Test");
         }
+
+        static int TestMethod(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
