@@ -4,9 +4,9 @@ namespace GitTrainings
 {
     internal class Program
     {
-        static void Test()
+        static int TestMethod(int x, int y)
         {
-            Console.WriteLine("Test");
+            return x + y;
         }
     }
 }
