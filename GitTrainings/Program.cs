@@ -4,18 +4,27 @@ namespace GitTrainings
 {
     internal class Program
     {
-        static void Test()
+        public static void Tes2(string[] args)
+        {
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            SByte t;
+        }
+        static void Test1()
         {
             Console.WriteLine("Test");
-            TestMethod(1,2);
+            Sum(10000, 2000000);
+            Console.WriteLine("rge");
+            Test2();
         }
 
-        static int TestMethod(int x, int y)
+        private static void Test2()
         {
-            return x + y;
+            throw new NotImplementedException();
         }
 
-        static int TestMethod(int x, int y)
+        static int Sum(int x, int y)
         {
             return x + y;
         }
