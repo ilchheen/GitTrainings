@@ -4,7 +4,7 @@ namespace GitTrainings
 {
     internal class Program
     {
-        public static void Test2(string[] args)
+        static void Test()
         {
             Console.WriteLine("");
             Console.WriteLine("");
