@@ -8,5 +8,10 @@ namespace GitTrainings
         {
             return x + y;
         }
+
+        static int TestMethod(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
